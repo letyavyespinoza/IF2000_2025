@@ -10,6 +10,7 @@ package com.mycompany.if2000_introduccionprogra;
  */
 public class IF2000_IntroduccionProgra {
 
+    
     public static void main(String[] args) {
         //System.out.println("Hello World!");
         
@@ -41,6 +42,7 @@ public class IF2000_IntroduccionProgra {
         True/False:
         boolean
         */
+      
         
     }
 }
