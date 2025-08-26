@@ -4,6 +4,9 @@
 
 package com.mycompany.if2000_introduccionprogra;
 
+
+import logic.Ejercicios_Semana2_PracticaEnClase;
+
 /**
  *
  * @author USER
@@ -14,7 +17,7 @@ public class IF2000_IntroduccionProgra {
     public static void main(String[] args) {
         //System.out.println("Hello World!");
         
-        String name = "Lionel";
+        /*String name = "Lionel";
         int age = 40;
         
         System.out.println("Hello World!");
@@ -42,7 +45,16 @@ public class IF2000_IntroduccionProgra {
         True/False:
         boolean
         */
-      
+        Ejercicios_Semana2_PracticaEnClase ej;
+        ej = new Ejercicios_Semana2_PracticaEnClase(); 
+         ej.quiz2_B_piramide(3);
         
+         ej = new Ejercicios_Semana2_PracticaEnClase();
+         ej.ejercioA(5);
+         ej.ejercicioB(5);
+         ej.ejercicioC(5);
+         ej.ejercicioD();
+         ej.ejercicioE();
+         ej.tablero();
     }
 }
