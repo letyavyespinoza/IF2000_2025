@@ -29,7 +29,7 @@ public class Ejercicios_Semana2_PracticaEnClase {
         }//end del for Externo
     }// end del metodo
     
-    public void ejercioA(int n) {
+    public void ejercicioA(int n) {
         for (int i = 1; i <= n; i++) {
          //controla los espacios 
             for (int j = 1; j <= (n-1); j++) {
@@ -156,5 +156,20 @@ public class Ejercicios_Semana2_PracticaEnClase {
         }    
          
          }
+    public void quiz3() {
+        
+        for (int i = 0; i < 5; i++) { // 5 filas
+            for (int j = 0; j < 9; j++) { // 9 columnas
+                // Condiciones para imprimir "*"
+                if (i == 0 || i == 4 || j == 0 || j == 8 || (i == 2 && j == 4)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     
 }

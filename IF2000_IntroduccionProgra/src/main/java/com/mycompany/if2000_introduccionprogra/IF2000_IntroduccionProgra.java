@@ -5,7 +5,7 @@
 package com.mycompany.if2000_introduccionprogra;
 
 
-import logic.Ejercicios_Semana2_PracticaEnClase;
+import logic.*;
 
 /**
  *
@@ -50,11 +50,15 @@ public class IF2000_IntroduccionProgra {
          ej.quiz2_B_piramide(3);
         
          ej = new Ejercicios_Semana2_PracticaEnClase();
-         ej.ejercioA(5);
+         ej.ejercicioA(5);
          ej.ejercicioB(5);
          ej.ejercicioC(5);
          ej.ejercicioD();
          ej.ejercicioE();
          ej.tablero();
+         
+         
+         //prueba quiz3
+         ej.quiz3();
     }
 }
