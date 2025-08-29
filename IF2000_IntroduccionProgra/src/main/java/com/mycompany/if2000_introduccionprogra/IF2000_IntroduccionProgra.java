@@ -45,7 +45,7 @@ public class IF2000_IntroduccionProgra {
         True/False:
         boolean
         */
-        Ejercicios_Semana2_PracticaEnClase ej;
+        /*Ejercicios_Semana2_PracticaEnClase ej;
         ej = new Ejercicios_Semana2_PracticaEnClase(); 
          ej.quiz2_B_piramide(3);
         
@@ -59,6 +59,21 @@ public class IF2000_IntroduccionProgra {
          
          
          //prueba quiz3
-         ej.quiz3();
+         ej.quiz3();*/
+        Lab1 ej;
+        ej = new Lab1();
+        ej.ejercicio1();
+        ej.ejercicio2();
+        ej.ejercicio3();
+        ej.ejercicio4();
+        ej.ejercicio5();
+        ej.ejercicio6();
+        ej.ejercicio7_Pulsaciones();
+        ej.ejercicio8_utilidad();
+        ej.ejercicio9_primo_o_no();
+        ej.ejercicio10();
+        ej.ejercicio12();
+        ej.ejercicio11_generarPrimos();
+        
     }
 }
