@@ -60,7 +60,7 @@ public class IF2000_IntroduccionProgra {
          
          //prueba quiz3
          ej.quiz3();*/
-        Lab1 ej;
+        /*Lab1 ej;
         ej = new Lab1();
         ej.ejercicio1();
         ej.ejercicio2();
@@ -73,7 +73,34 @@ public class IF2000_IntroduccionProgra {
         ej.ejercicio9_primo_o_no();
         ej.ejercicio10();
         ej.ejercicio12();
-        ej.ejercicio11_generarPrimos();
+        ej.ejercicio11_generarPrimos();*/
+        
+        //prueba quiz4
+       /* quiz_4 ej;
+        ej = new quiz_4(); 
+        ej.quiz_4();*/
+       
+       //Lab2
+       Lab2 ej;
+       ej = new Lab2();
+       ej.ejercicio13();
+       ej.ejercicio14();
+       ej.ejercicio15(5, 5);
+       ej.ejercicio16();
+       ej.ejercicio17();
+       ej.ejercicio18();
+       ej.ejercicio19();
+       ej.ejercicio20();
+       ej.ejercicio21();
+       ej.ejercicio22();
+       ej.ejercicio23();
+       ej.ejercicio24();
+       ej.ejercicio25();
+       ej.ejercicio26();
+       ej.ejercicio27();
+       
+
+        
         
     }
 }
